@@ -2,7 +2,7 @@
 
 const titleElement = document.querySelector(".title");
 const buttonsContainer = document.querySelector(".buttons");
-const yesButton = document.querySelector(".btn--acepto");
+const yesButton = document.querySelector(".btn--si");
 const noButton = document.querySelector(".btn--no");
 const catImg = document.querySelector(".cat-img");
 
