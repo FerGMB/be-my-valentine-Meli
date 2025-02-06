@@ -2,7 +2,7 @@
 
 const titleElement = document.querySelector(".title");
 const buttonsContainer = document.querySelector(".buttons");
-const yesButton = document.querySelector(".btn--yes");
+const yesButton = document.querySelector(".btn--acepto");
 const noButton = document.querySelector(".btn--no");
 const catImg = document.querySelector(".cat-img");
 
@@ -27,7 +27,7 @@ noButton.addEventListener("click", function () {
 });
 
 function handleYesClick() {
-  titleElement.innerHTML = "Yayyy!! :3";
+  titleElement.innerHTML = "SIIII!! :3 te amo mucho bebita (nuestro segundo San Valentín!)";
   buttonsContainer.classList.add("hidden");
   changeImage("yes");
 }
@@ -43,11 +43,11 @@ function resizeYesButton() {
 function generateMessage(noCount) {
   const messages = [
     "No",
-    "Are you sure?",
-    "Pookie please",
-    "Don't do this to me :(",
-    "You're breaking my heart",
-    "I'm gonna cry...",
+    "Seguraaaa?:3",
+    "Andale miamorcitooo",
+    "pero pero :(",
+    "BUAAAH BUAAAH :'c...",
+    "MIAMOCHITOOOO"
   ];
 
   const messageIndex = Math.min(noCount, messages.length - 1);
