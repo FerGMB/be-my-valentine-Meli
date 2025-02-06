@@ -27,7 +27,7 @@ noButton.addEventListener("click", function () {
 });
 
 function handleYesClick() {
-  titleElement.innerHTML = "SIIII!! :3 te amo mucho bebita (nuestro segundo San Valentín!)";
+  titleElement.innerHTML = "SIIII!! :3 te amo mucho miamor (nuestro segundo San Valentín!)";
   buttonsContainer.classList.add("hidden");
   changeImage("yes");
 }
